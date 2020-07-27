@@ -1,0 +1,9 @@
+body {
+    background-image: url("https://cdn.pixabay.com/photo/2015/09/09/16/05/forest-931706_1280.jpg");
+    background-size: cover;
+}
+
+#profile-pic {
+    max-width: 100%;
+    height: auto;
+}
