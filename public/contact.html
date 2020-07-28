@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+
+    <!-- Favicon Link -->
+    <link rel="shortcut icon" type="image/x-icon" href="" />
+
+    <!-- Bootstrap Link -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <!-- Font Awesome Link -->
+    <script src="https://kit.fontawesome.com/3b35cdb471.js" crossorigin="anonymous"></script>
+
+    <!-- Custom Stylesheet -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <header class="p-4 mb-4 text-white text-center bg-dark">
+        <h1>Simon Newton</h1>
+
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark p-0">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav mx-auto">
+                    <a class="nav-item nav-link" href="/">Home</a>
+                    <a class="nav-item nav-link" href="/portfolio">Portfolio</a>
+                    <a class="nav-item nav-link" href="/resume">Resume</a>
+                    <a class="nav-item nav-link active" href="/contact">Contact <span class="sr-only">(current)</span></a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container mb-4">
+        <div class="jumbotron">
+            <div class="card p-4 bg-light border border-secondary">
+                <div class="d-flex justify-content-between align-items-center">
+                    <h1 class="m-0">Contact Me</h1>
+                    <ul class="list-group list-group-horizontal">
+                        <a href="https://github.com/simonanewton" class="list-group-item text-dark" target="_blank">
+                            <i class="fab fa-github fa-lg pr-2"></i>
+                            <span>GitHub</span>
+                        </a>
+                        <a href="https://www.linkedin.com/in/simon-newton-2a7440129" class="list-group-item text-dark" target="_blank">
+                            <i class="fab fa-linkedin-in fa-lg pr-2"></i>
+                            <span>LinkedIn</span>
+                        </a>
+                        <a href="tel:7064613684" class="list-group-item text-dark">
+                            <i class="fas fa-phone-square-alt fa-lg pr-2"></i>
+                            <span>(706) 461-3684</span>
+                        </a>
+                    </ul>
+                </div>
+                <hr>
+    
+                <form>
+                    <div class="form-group">
+                        <label for="name">Full Name</label>
+                        <input type="text" class="form-control" id="name" placeholder="Full Name">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" class="form-control" id="email" placeholder="Email Address">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Subject</label>
+                        <input type="text" class="form-control" id="subject" placeholder="Subject">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea name="message" class="form-control" id="message" rows="5"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary" id="submit">Submit</button>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <!-- Bootstrap Link -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+
+    <!-- Custom JavaScript -->
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
