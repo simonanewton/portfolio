@@ -36,3 +36,8 @@ body {
     text-decoration: none;
     background-color: whitesmoke;
 }
+
+.portfolio-pic {
+    width: 300px;
+    height: auto;
+}
