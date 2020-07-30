@@ -3,6 +3,35 @@ body {
     background-size: cover;
 }
 
+#profile-pic {
+    background-image: url("../images/profile.jpg");
+    background-position: center;
+    background-size: cover;
+    border: 5px solid white;
+}
+
+#countriesUl {
+    list-style-type: none;
+    font-size: 18px;
+}
+
+#countriesUl li {
+    display: inline-block;
+}
+
+#countriesUl li::after {
+    content: "\00b7";
+}
+
+#countriesUl li:last-child::after {
+    content: none;
+}
+
+#countriesUl li a {
+    color: black;
+    padding: 0px 10px;
+}
+
 .list-group-item:hover {
     text-decoration: none;
     background-color: whitesmoke;
