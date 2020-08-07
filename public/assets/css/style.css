@@ -4,7 +4,7 @@ body {
 }
 
 #profile-pic {
-    background-image: url("../images/profile.jpg");
+    background-image: url("../images/profile-pic.jpg");
     background-position: center;
     background-size: cover;
     border: 5px solid white;
