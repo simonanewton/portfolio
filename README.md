@@ -28,34 +28,11 @@ npm start
 
 ## Contributing
 
-<div style="display: flex; align-items: center;">
-    <div style="padding-right: 1.5rem;">
-        <a href="https://github.com/simonanewton">
-            <img src="public/assets/images/profile-pic.jpg" alt="Profile Picture" id="profile-img"
-                style="width: 250px; height: auto; border-radius: 50%;" />
-        </a>
-    </div>
-    <div>
-        <h3><b>Simon Newton</b></h3>
-        <hr>
-        <p>
-            Hey I'm Simon and I'm a Full-Stack Web Developer!
-        </p>
-        <ul style="list-style-type: none; padding: 0px;">
-            <li style="display: inline-block; margin-bottom: 10px;">
-                <a href="https://github.com/simonanewton" target="_blank">GitHub Profile</a>
-            </li>
-            <span>|</span>
-            <li style="display: inline-block; margin-bottom: 10px;">
-                <a href="https://www.linkedin.com/in/simon-newton-2a7440129/" target="_blank">LinkedIn Profile</a>
-            </li>
-            <span>|</span>
-            <li style="display: inline-block; margin-bottom: 10px;">
-                <a href="https://simonanewton.herokuapp.com/" target="_blank">Personal Website</a>
-            </li>
-        </ul>
-    </div>
-</div>
+<img src="./public/assets/images/profile-pic-circle.png" alt="Profile Picture" width=250/>
+<h3><b>Simon Newton</b></h3>
+<hr align=left width=315 />
+<p>Hey I'm Simon and I'm a Full-Stack Web Developer!</p>
+<a href="https://github.com/simonanewton" target="_blank">GitHub Profile</a> | <a href="https://www.linkedin.com/in/simon-newton-2a7440129/" target="_blank">LinkedIn Profile</a> | <a href="https://simonanewton.herokuapp.com/" target="_blank">Personal Website</a>
 
 ## Credits
 
@@ -66,4 +43,4 @@ npm start
 
 [![license](https://img.shields.io/badge/license-MIT-green)](https://simonanewton.mit-license.org)
 
-MIT Licence &copy; Simon Newton <https://simonanewton.mit-license.org>
+MIT License &copy; Simon Newton <https://simonanewton.mit-license.org>
