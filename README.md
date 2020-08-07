@@ -28,40 +28,7 @@ npm start
 
 ## Contributing
 
-<style>
-    #container {
-        display: flex;
-        align-items: center;
-    }
-
-    #img-div {
-        padding-right: 1.5rem;
-    }
-
-    #profile-img {
-        width: 250px;
-        height: auto;
-        border-radius: 50%;
-    }
-
-    #social-ul {
-        list-style: none;
-        padding: 0px;
-    }
-
-    #social-ul li {
-        display: inline-block;
-        margin-bottom: 10px;
-    }
-
-    #social-ul li::after {
-        content: '|';
-    }
-
-    #social-ul li:last-child::after {
-        content: none;
-    }
-</style>
+<link rel="stylesheet" href="./public/assets/css/markdown.css">
 
 <div id="container">
     <div style="padding-right: 1.5rem;" id="img-div">
